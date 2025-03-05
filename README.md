@@ -2,10 +2,14 @@ This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter projec
 
 ## Getting Started
 
-First, add your OpenAI API key to `.env.local` file:
+First, add your langsmith API key to `.env.local` file:
 
 ```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+...
+NEXT_PUBLIC_LANGSMITH_API_KEY=
+....
+LANGSMITH_API_KEY=
+
 ```
 
 Then, run the development server:
